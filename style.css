@@ -1,0 +1,93 @@
+body {
+    background-color: #edefee;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%; 
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header >img {
+    display: block;
+    margin-left: auto ; 
+    margin-right: auto;
+}
+nav{
+    background-color: black;
+    border-radius: 20px;
+    padding: 0.02px;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin: 5%;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px ;
+    border-radius: 10px;
+ 
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+#con {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 20px;
+    color: #edefee;
+    border-radius: 18px;
+}
+
+
+#adart {
+    background: url('https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover ;
+    border-radius: 30px;
+}
+#card{
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 30%;
+}
+#info {
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1rem;
+}
+footer{
+    display: flex ;
+}
+footer div {
+    flex: 1;
+}
